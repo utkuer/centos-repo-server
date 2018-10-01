@@ -5,7 +5,7 @@ Creates a local centos repository server running on nginx
 # Usage
 
 ## Scenario1: Locating repo packages on an external volume;
-### In this scenario, i created a 30GB file system as /repo on docker host, create a directory under it as "/repo/repo1" and mount it to container as "/repo" during container startup
+### In this scenario, a 30GB file system created and mounted as /repo on docker host, create a directory under it as "/repo/repo1" and mount it to container as "/repo" during container startup
 
 * Copy "Dockerfile", "makerepo.sh" and "repos.conf" to the same directory (let's say /docker/reposerver)
 * Change directory to /docker/reposerver and build image; "docker build --rm --no-cache -t local/reposerver"
