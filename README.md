@@ -4,7 +4,7 @@ Creates a local centos repository server running on nginx
 
 # Usage
 
-## Scenario1: Locating repo packages on an external volume;
+##  Locating repo packages on an external volume;
 ### A 30GB file system created and mounted as /repo on docker host.
 ### "/repo/repo1" directory created and mounted to container as "/repo"
 
